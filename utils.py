@@ -24,7 +24,7 @@ def create_dataframe(account_data_list, dataset_type):
                 "username_length": account_data["usernameLength"],
                 "username_digit_count": account_data["usernameDigitCount"],
                 "media_comment_numbers": account_data["mediaCommentNumbers"],
-                "media_comments_are_disabled": account_data["mediaCommentNumbers"],
+                "media_comments_are_disabled": account_data["mediaCommentsAreDisabled"],
                 "media_has_location_info": account_data["mediaHasLocationInfo"],
                 "media_hashtag_numbers": account_data["mediaHashtagNumbers"],
                 "media_like_numbers": account_data["mediaLikeNumbers"],
